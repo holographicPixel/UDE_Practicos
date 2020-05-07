@@ -5,7 +5,7 @@ public class Eje16_variables {
 	public static void main(String[] args) {
 
 		/*
-		 * Escriba el código en java para resolver los siguientes problemas:
+		 * Escriba el código en java para resolver los siguientes problemas: 
 		 * 
 		 * 1. En una escuela la maestra reparte entre 3 niños números para un sorteo.
 		 * Los números son del 0 al 10. Los 3 niños, una vez que los reciben, se los
