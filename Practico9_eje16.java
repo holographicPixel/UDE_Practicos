@@ -19,7 +19,7 @@ public class Eje16_variables {
 		 * Se reparten números aleatorios entre Javier, Tamara y Lucía
 		 * 
 		 */
-		int nro_Javier = (int) (Math.random() * 11); //edit: para que incluya n° 10
+		int nro_Javier = (int) (Math.random() * 11); // edit 11/5 para incluir n° 10
 		int nro_Tamara = (int) (Math.random() * 11);
 		int nro_Lucia = (int) (Math.random() * 11);
 
