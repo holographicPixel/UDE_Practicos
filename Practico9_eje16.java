@@ -19,10 +19,9 @@ public class Eje16_variables {
 		 * Se reparten números aleatorios entre Javier, Tamara y Lucía
 		 * 
 		 */
-
-		int nro_Javier = (int) (Math.random() * 10);
-		int nro_Tamara = (int) (Math.random() * 10);
-		int nro_Lucia = (int) (Math.random() * 10);
+		int nro_Javier = (int) (Math.random() * 11); //edit: para que incluya n° 10
+		int nro_Tamara = (int) (Math.random() * 11);
+		int nro_Lucia = (int) (Math.random() * 11);
 
 		int aux1;
 
@@ -45,10 +44,10 @@ public class Eje16_variables {
 		do {
 			if (nro_Tamara == nro_Javier) {
 
-				nro_Tamara = (int) (Math.random() * 10);
+				nro_Tamara = (int) (Math.random() * 11);
 
 			} else if (nro_Lucia == nro_Tamara || nro_Lucia == nro_Javier) {
-				nro_Lucia = (int) (Math.random() * 10);
+				nro_Lucia = (int) (Math.random() * 11);
 			} else {
 				System.out.println("El n° que le tocó a Javier es: " + nro_Javier);
 				System.out.println("El n° que le tocó a Tamara es: " + nro_Tamara);
