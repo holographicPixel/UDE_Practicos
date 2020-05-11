@@ -23,7 +23,7 @@ public class Eje17_variables {
 		double _gastos = 0;
 		double _total = 0;
 
-		int grupo_amigos = (int) (Math.random() * 10);
+		int grupo_amigos = (int) (Math.random() * 11);
 
 		boolean _alcanza = false;
 
